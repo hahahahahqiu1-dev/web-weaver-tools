@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { COMPARES, pathFor } from "@/lib/content";
 
-export const Route = createFileRoute("/compare")({
+export const Route = createFileRoute("/compare/")({
   head: () => ({
     meta: [
       { title: "Software Comparisons — Toolhaven" },

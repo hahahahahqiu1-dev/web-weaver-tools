@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { TOOLS, pathFor } from "@/lib/content";
 
-export const Route = createFileRoute("/tools")({
+export const Route = createFileRoute("/tools/")({
   head: () => ({
     meta: [
       { title: "All Free Online Tools — Toolhaven" },
